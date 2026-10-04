@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "language": "id",
+  "description": "Kamus jawaban ringkas ESP32 Chat-bot. Kontribusi pertanyaan dan koreksi typo diterima melalui pull request.",
+  "entries": [
+    {
+      "questions": ["halo", "hai", "hallo", "hi", "selamat pagi", "selamat siang", "selamat malam"],
+      "answer": "Halo! Ada yang ingin kamu tanyakan? Saya mencari kecocokan dari kamus pengetahuan online ini."
+    },
+    {
+      "questions": ["apa kabar", "bagaimana kabarmu", "gimana kabarnya"],
+      "answer": "Terima kasih sudah bertanya! Saya siap membantu mencari jawaban dari kamus yang tersedia."
+    },
+    {
+      "questions": ["siapa kamu", "kamu siapa", "apa itu chat bot ini"],
+      "answer": "Saya Chat-bot ESP32, program sederhana yang mencocokkan pertanyaan dengan entri dalam kamus JSON online. Saya bukan model bahasa generatif."
+    },
+    {
+      "questions": ["apa itu esp32", "jelaskan esp32", "esp32 itu apa"],
+      "answer": "ESP32 adalah keluarga mikrokontroler dari Espressif yang menyediakan Wi-Fi dan Bluetooth pada banyak variannya. ESP32 sering dipakai untuk perangkat IoT, sensor, otomasi, dan proyek elektronik."
+    },
+    {
+      "questions": ["apa itu esp32 s3", "esp32 s3 itu apa", "fitur esp32 s3"],
+      "answer": "ESP32-S3 adalah mikrokontroler dual-core Xtensa LX7 dengan Wi-Fi 2,4 GHz dan Bluetooth LE. Varian dan papan yang berbeda dapat memiliki jumlah flash, PSRAM, serta periferal yang berbeda."
+    },
+    {
+      "questions": ["apa itu mikrokontroler", "fungsi mikrokontroler", "mikrokontroler adalah"],
+      "answer": "Mikrokontroler adalah komputer kecil dalam satu chip yang menjalankan program untuk membaca masukan, memproses data, dan mengendalikan keluaran seperti LED, motor, atau layar."
+    },
+    {
+      "questions": ["apa itu iot", "internet of things itu apa", "jelaskan internet of things"],
+      "answer": "Internet of Things (IoT) adalah konsep perangkat fisik yang memakai sensor, perangkat lunak, dan koneksi jaringan untuk mengumpulkan atau bertukar data."
+    },
+    {
+      "questions": ["apa itu wifi", "bagaimana cara kerja wifi", "wifi adalah"],
+      "answer": "Wi-Fi adalah teknologi jaringan nirkabel yang menghubungkan perangkat melalui gelombang radio. Router biasanya menghubungkan jaringan Wi-Fi lokal ke internet."
+    },
+    {
+      "questions": ["wifi esp32 tidak terhubung", "esp32 gagal konek wifi", "kenapa esp32 tidak bisa konek wifi"],
+      "answer": "Periksa nama jaringan dan kata sandi, pastikan jaringan 2,4 GHz aktif, dekatkan board ke router, dan pastikan router mengizinkan perangkat baru. Banyak papan ESP32 tidak mendukung Wi-Fi 5 GHz."
+    },
+    {
+      "questions": ["apa beda wifi 2.4 ghz dan 5 ghz", "wifi 2.4 atau 5 ghz", "perbedaan jaringan 2.4 ghz dan 5 ghz"],
+      "answer": "Wi-Fi 2,4 GHz umumnya menjangkau jarak lebih jauh tetapi lebih padat gangguan dan kecepatannya lebih rendah. Wi-Fi 5 GHz biasanya lebih cepat pada jarak dekat, tetapi jangkauannya lebih pendek. Dukungan frekuensi bergantung pada perangkat."
+    },
+    {
+      "questions": ["apa itu ssid", "ssid wifi adalah", "arti ssid"],
+      "answer": "SSID adalah nama yang digunakan untuk mengenali sebuah jaringan Wi-Fi. SSID dapat disiarkan agar terlihat saat pemindaian atau disembunyikan oleh pengaturan router."
+    },
+    {
+      "questions": ["apa itu ip address", "alamat ip adalah", "jelaskan alamat ip"],
+      "answer": "Alamat IP adalah alamat numerik yang dipakai perangkat untuk berkomunikasi di jaringan. Alamat IP lokal digunakan di jaringan rumah, sedangkan alamat publik digunakan untuk komunikasi melalui internet."
+    },
+    {
+      "questions": ["apa itu router", "fungsi router", "router itu apa"],
+      "answer": "Router meneruskan data antarjaringan. Di rumah, router biasanya menghubungkan perangkat lokal melalui Wi-Fi atau kabel dan meneruskan lalu lintas ke penyedia internet."
+    },
+    {
+      "questions": ["apa itu bluetooth", "bluetooth adalah", "fungsi bluetooth"],
+      "answer": "Bluetooth adalah teknologi komunikasi radio jarak dekat untuk menghubungkan perangkat seperti papan ketik, sensor, headphone, dan mikrokontroler."
+    },
+    {
+      "questions": ["apa itu api", "api pemrograman adalah", "jelaskan application programming interface"],
+      "answer": "API adalah antarmuka yang menentukan cara satu program meminta layanan atau data dari program lain. API web sering menerima permintaan HTTP dan mengembalikan JSON."
+    },
+    {
+      "questions": ["apa itu json", "format json adalah", "jelaskan json"],
+      "answer": "JSON adalah format teks untuk menyimpan dan bertukar data terstruktur. Nilainya dapat berupa objek, array, teks, angka, boolean, atau null."
+    },
+    {
+      "questions": ["apa itu http", "http adalah", "fungsi protokol http"],
+      "answer": "HTTP adalah protokol komunikasi yang digunakan untuk pertukaran permintaan dan respons di web. HTTPS menambahkan enkripsi TLS untuk melindungi data selama pengiriman."
+    },
+    {
+      "questions": ["apa itu github", "github digunakan untuk apa", "fungsi github"],
+      "answer": "GitHub adalah layanan untuk menyimpan repositori Git dan berkolaborasi dalam pengembangan perangkat lunak, termasuk melalui issue dan pull request."
+    },
+    {
+      "questions": ["apa itu git", "git adalah", "fungsi git"],
+      "answer": "Git adalah sistem kontrol versi terdistribusi untuk melacak perubahan berkas dan membantu beberapa orang bekerja pada proyek yang sama."
+    },
+    {
+      "questions": ["apa itu firmware", "firmware adalah", "perbedaan firmware dan software"],
+      "answer": "Firmware adalah perangkat lunak tingkat rendah yang mengendalikan perangkat elektronik. Firmware biasanya disimpan di memori perangkat dan dijalankan saat perangkat dinyalakan."
+    },
+    {
+      "questions": ["apa itu bootloader", "fungsi bootloader", "bootloader firmware adalah"],
+      "answer": "Bootloader adalah program awal yang berjalan saat perangkat menyala. Bootloader menyiapkan sistem dan memulai aplikasi utama, serta pada beberapa perangkat membantu proses pembaruan firmware."
+    },
+    {
+      "questions": ["apa itu flash memory", "memori flash adalah", "fungsi flash pada esp32"],
+      "answer": "Flash adalah memori nonvolatil yang menyimpan data meski daya mati. Pada papan mikrokontroler, flash dapat menyimpan bootloader, tabel partisi, firmware, dan berkas sistem."
+    },
+    {
+      "questions": ["apa itu ram", "ram adalah", "fungsi ram komputer"],
+      "answer": "RAM adalah memori kerja sementara yang dipakai program saat berjalan. Isinya biasanya hilang ketika perangkat kehilangan daya."
+    },
+    {
+      "questions": ["apa itu psram", "psram pada esp32", "fungsi psram"],
+      "answer": "PSRAM adalah RAM eksternal yang tersedia pada sebagian papan ESP32. PSRAM menambah ruang untuk data sementara, tetapi tidak otomatis mempercepat semua program dan tidak sama dengan flash penyimpanan."
+    },
+    {
+      "questions": ["apa itu gpio", "pin gpio adalah", "fungsi gpio"],
+      "answer": "GPIO adalah pin masukan/keluaran serbaguna pada mikrokontroler. GPIO dapat membaca sinyal digital atau mengendalikan komponen, selama batas tegangan dan kemampuan arus pin dipatuhi."
+    },
+    {
+      "questions": ["apa itu pwm", "fungsi pwm", "pwm adalah"],
+      "answer": "PWM mengatur daya rata-rata dengan mengubah perbandingan waktu sinyal digital berada pada kondisi aktif dan mati. PWM sering dipakai untuk mengatur kecerahan LED atau kecepatan motor dengan rangkaian yang sesuai."
+    },
+    {
+      "questions": ["apa itu i2c", "protokol i2c adalah", "cara kerja i2c"],
+      "answer": "I2C adalah protokol komunikasi serial sinkron yang biasanya memakai dua jalur, SDA untuk data dan SCL untuk clock. Beberapa perangkat dapat berbagi bus dengan alamat yang berbeda."
+    },
+    {
+      "questions": ["apa itu spi", "protokol spi adalah", "cara kerja spi"],
+      "answer": "SPI adalah protokol komunikasi serial sinkron yang umumnya memakai jalur clock, data masuk, data keluar, dan chip select. SPI sering digunakan untuk layar, kartu memori, dan sensor."
+    },
+    {
+      "questions": ["apa itu uart", "serial uart adalah", "fungsi uart"],
+      "answer": "UART adalah komunikasi serial asinkron yang mengirim data melalui jalur TX dan RX. Kedua perangkat perlu menyepakati baud rate dan pengaturan format data."
+    },
+    {
+      "questions": ["apa itu sensor", "fungsi sensor", "sensor adalah"],
+      "answer": "Sensor mengubah besaran lingkungan seperti suhu, cahaya, gerak, atau tekanan menjadi sinyal yang dapat dibaca dan diolah oleh sistem elektronik."
+    },
+    {
+      "questions": ["cara membaca sensor suhu", "sensor suhu bekerja bagaimana", "bagaimana mengukur suhu dengan mikrokontroler"],
+      "answer": "Hubungkan sensor sesuai jenis antarmukanya, baca nilai memakai pustaka atau protokol yang benar, lalu periksa satuan dan kalibrasinya. Jenis sensor menentukan sambungan dan cara konversi nilainya."
+    },
+    {
+      "questions": ["apa itu led", "cara kerja led", "led adalah"],
+      "answer": "LED adalah dioda yang memancarkan cahaya saat dialiri arus dengan arah dan batas yang sesuai. Gunakan resistor pembatas arus kecuali rangkaian atau modul LED sudah memilikinya."
+    },
+    {
+      "questions": ["apa itu resistor", "fungsi resistor", "resistor adalah"],
+      "answer": "Resistor membatasi arus atau membagi tegangan dalam rangkaian. Nilai resistansinya diukur dalam ohm."
+    },
+    {
+      "questions": ["apa itu tegangan", "tegangan listrik adalah", "volt adalah apa"],
+      "answer": "Tegangan listrik adalah beda potensial antara dua titik dan diukur dalam volt. Pastikan tegangan suplai sesuai dengan spesifikasi komponen."
+    },
+    {
+      "questions": ["apa itu arus listrik", "arus listrik diukur dengan apa", "ampere adalah apa"],
+      "answer": "Arus listrik adalah laju aliran muatan listrik dan diukur dalam ampere. Komponen dan kabel memiliki batas arus yang tidak boleh dilampaui."
+    },
+    {
+      "questions": ["apa itu baterai", "bagaimana baterai bekerja", "baterai menyimpan apa"],
+      "answer": "Baterai menyimpan energi kimia dan mengubahnya menjadi energi listrik melalui reaksi elektrokimia. Jenis baterai menentukan tegangan, kapasitas, cara pengisian, dan tindakan keselamatan yang diperlukan."
+    },
+    {
+      "questions": ["apa itu listrik", "listrik adalah apa", "jelaskan energi listrik"],
+      "answer": "Listrik berkaitan dengan keberadaan dan aliran muatan listrik. Dalam rangkaian, sumber tegangan mendorong arus melalui komponen yang terhubung."
+    },
+    {
+      "questions": ["apa itu pemrograman", "pemrograman adalah", "belajar coding mulai dari mana"],
+      "answer": "Pemrograman adalah proses menulis instruksi agar komputer melakukan tugas. Untuk mulai belajar, pilih satu bahasa, pelajari variabel, kondisi, perulangan, fungsi, lalu buat proyek kecil dan uji hasilnya."
+    },
+    {
+      "questions": ["apa itu c++", "bahasa c++ adalah", "c plus plus digunakan untuk apa"],
+      "answer": "C++ adalah bahasa pemrograman yang mendukung pemrograman prosedural dan berorientasi objek. C++ banyak digunakan untuk aplikasi performa tinggi, sistem, dan firmware mikrokontroler."
+    },
+    {
+      "questions": ["apa itu javascript", "javascript adalah", "javascript digunakan untuk apa"],
+      "answer": "JavaScript adalah bahasa pemrograman yang banyak digunakan untuk membuat halaman web interaktif. JavaScript juga dapat dijalankan di server dan berbagai lingkungan lainnya."
+    },
+    {
+      "questions": ["apa itu python", "bahasa python adalah", "python digunakan untuk apa"],
+      "answer": "Python adalah bahasa pemrograman tingkat tinggi dengan sintaks yang relatif mudah dibaca. Python sering digunakan untuk otomasi, analisis data, pendidikan, dan pembelajaran mesin."
+    },
+    {
+      "questions": ["apa itu variabel", "variabel dalam pemrograman adalah", "fungsi variabel"],
+      "answer": "Variabel adalah nama yang merujuk pada nilai yang dapat digunakan atau diubah oleh program. Jenis data dan aturan cakupan variabel bergantung pada bahasa pemrograman."
+    },
+    {
+      "questions": ["apa itu fungsi dalam program", "fungsi pemrograman adalah", "kegunaan function"],
+      "answer": "Fungsi adalah bagian program yang mengelompokkan instruksi untuk melakukan tugas tertentu. Fungsi dapat menerima parameter dan mengembalikan nilai."
+    },
+    {
+      "questions": ["apa itu bug", "bug pada program adalah", "cara memperbaiki bug"],
+      "answer": "Bug adalah kesalahan atau perilaku yang tidak diharapkan dalam perangkat lunak. Untuk menanganinya, ulangi masalah, periksa pesan error, kecilkan contoh kasus, lalu uji perbaikannya."
+    },
+    {
+      "questions": ["apa itu kompilasi", "compiler adalah", "fungsi compiler"],
+      "answer": "Kompilasi menerjemahkan kode sumber menjadi bentuk yang dapat dijalankan atau diproses oleh target. Compiler juga dapat melaporkan kesalahan sintaks dan tipe."
+    },
+    {
+      "questions": ["apa itu kecerdasan buatan", "ai adalah apa", "jelaskan artificial intelligence"],
+      "answer": "Kecerdasan buatan adalah bidang yang membuat sistem komputer melakukan tugas seperti pengenalan pola, pemrosesan bahasa, atau pengambilan keputusan. Kemampuan sistem bergantung pada data, metode, dan tujuan penggunaannya."
+    },
+    {
+      "questions": ["apa itu machine learning", "pembelajaran mesin adalah", "cara kerja machine learning"],
+      "answer": "Pembelajaran mesin adalah metode yang membuat model menemukan pola dari data untuk melakukan prediksi atau tugas tertentu. Hasilnya dipengaruhi mutu data, rancangan model, dan cara evaluasi."
+    },
+    {
+      "questions": ["apa itu llm", "large language model adalah", "model bahasa besar itu apa"],
+      "answer": "LLM adalah model pembelajaran mesin yang dilatih pada banyak teks untuk memperkirakan dan menghasilkan rangkaian bahasa. LLM dapat terdengar meyakinkan tetapi tetap bisa salah atau mengarang informasi."
+    },
+    {
+      "questions": ["apa itu tinyml", "tiny ml adalah", "tinyml untuk apa"],
+      "answer": "TinyML adalah penerapan model pembelajaran mesin berukuran kecil pada perangkat dengan sumber daya terbatas, misalnya mikrokontroler untuk klasifikasi suara, sensor, atau gambar."
+    },
+    {
+      "questions": ["apa itu neural network", "jaringan saraf tiruan adalah", "cara kerja neural network"],
+      "answer": "Jaringan saraf tiruan adalah model komputasi berlapis yang mempelajari hubungan pola dari data dengan menyesuaikan bobot selama pelatihan."
+    },
+    {
+      "questions": ["bagaimana cara belajar lebih efektif", "tips belajar efektif", "cara supaya mudah mengingat pelajaran"],
+      "answer": "Belajar bertahap, mengingat kembali materi tanpa melihat catatan, memberi jeda antarulangan, dan mencoba soal latihan dapat membantu pembelajaran. Sesuaikan metode dengan materi dan kebutuhanmu."
+    },
+    {
+      "questions": ["bagaimana cara mengatasi typo", "cara mengoreksi salah ketik", "apa itu typo"],
+      "answer": "Typo adalah kesalahan pengetikan. Pemeriksa ejaan biasanya membandingkan kata dengan kamus, memakai jarak edit untuk mencari kata mirip, lalu mempertimbangkan konteks agar koreksi tidak keliru."
+    },
+    {
+      "questions": ["apa itu matematika", "matematika mempelajari apa", "jelaskan matematika"],
+      "answer": "Matematika mempelajari pola, bilangan, bentuk, perubahan, dan hubungan logis. Matematika digunakan untuk mengukur, memodelkan, dan menyelesaikan berbagai masalah."
+    },
+    {
+      "questions": ["berapa hasil 2 tambah 2", "2 plus 2 berapa", "hasil dari dua ditambah dua"],
+      "answer": "2 + 2 = 4."
+    },
+    {
+      "questions": ["apa itu fotosintesis", "bagaimana tumbuhan membuat makanan", "fotosintesis adalah"],
+      "answer": "Fotosintesis adalah proses ketika tumbuhan menggunakan energi cahaya untuk mengubah air dan karbon dioksida menjadi gula, serta melepaskan oksigen."
+    },
+    {
+      "questions": ["apa itu siklus air", "bagaimana hujan terbentuk", "jelaskan siklus hidrologi"],
+      "answer": "Siklus air adalah peredaran air antara permukaan bumi dan atmosfer. Air menguap, mengembun membentuk awan, lalu kembali sebagai hujan atau bentuk presipitasi lainnya."
+    },
+    {
+      "questions": ["apa itu tata surya", "planet mengelilingi apa", "jelaskan tata surya"],
+      "answer": "Tata surya terdiri dari Matahari dan benda-benda yang terikat oleh gravitasinya, termasuk planet, satelit alami, asteroid, dan komet."
+    },
+    {
+      "questions": ["apa planet terbesar", "planet terbesar di tata surya apa", "jupiter adalah planet terbesar"],
+      "answer": "Jupiter adalah planet terbesar di Tata Surya berdasarkan diameter dan massa."
+    },
+    {
+      "questions": ["apa itu matahari", "matahari adalah apa", "matahari termasuk bintang"],
+      "answer": "Matahari adalah bintang di pusat Tata Surya. Gravitasi Matahari menjaga planet dan benda lain tetap berada pada orbitnya."
+    },
+    {
+      "questions": ["apa itu kesehatan", "cara menjaga kesehatan", "tips hidup sehat"],
+      "answer": "Kebiasaan umum yang mendukung kesehatan meliputi pola makan seimbang, aktivitas fisik, tidur cukup, dan pemeriksaan kesehatan sesuai kebutuhan. Saran ini tidak menggantikan konsultasi tenaga kesehatan."
+    },
+    {
+      "questions": ["apa yang dilakukan saat demam", "cara mengatasi demam", "demam harus bagaimana"],
+      "answer": "Demam dapat memiliki banyak penyebab. Istirahat dan cukup cairan dapat membantu, tetapi cari nasihat tenaga kesehatan jika gejala berat, menetap, terjadi pada bayi, atau disertai tanda bahaya."
+    },
+    {
+      "questions": ["apa itu energi terbarukan", "contoh energi terbarukan", "energi terbarukan adalah"],
+      "answer": "Energi terbarukan berasal dari sumber yang diperbarui secara alami, seperti matahari, angin, air, dan panas bumi. Dampak lingkungan tetap bergantung pada teknologi dan cara pengelolaannya."
+    },
+    {
+      "questions": ["apa itu panel surya", "cara kerja panel surya", "panel surya menghasilkan apa"],
+      "answer": "Panel surya menggunakan sel fotovoltaik untuk mengubah sebagian energi cahaya menjadi listrik. Sistem lengkap biasanya memerlukan pengatur daya dan dapat memakai baterai atau inverter."
+    },
+    {
+      "questions": ["apa itu perubahan iklim", "perubahan iklim adalah", "penyebab pemanasan global"],
+      "answer": "Perubahan iklim adalah perubahan jangka panjang pada pola suhu dan cuaca. Aktivitas manusia yang meningkatkan gas rumah kaca merupakan penyebab utama pemanasan global saat ini."
+    },
+    {
+      "questions": ["bagaimana membuat kata sandi yang kuat", "tips password aman", "cara menjaga keamanan akun"],
+      "answer": "Gunakan kata sandi panjang dan unik untuk setiap akun, aktifkan autentikasi multifaktor, dan jangan membagikan kode verifikasi. Pengelola kata sandi dapat membantu menyimpan kata sandi dengan aman."
+    },
+    {
+      "questions": ["apa itu phishing", "phishing adalah", "cara mengenali penipuan phishing"],
+      "answer": "Phishing adalah upaya menipu orang agar memberikan kata sandi, kode, atau data pribadi melalui pesan atau situs palsu. Periksa alamat pengirim dan situs, jangan membuka tautan mencurigakan, dan jangan membagikan kode verifikasi."
+    },
+    {
+      "questions": ["apa itu enkripsi", "enkripsi data adalah", "fungsi enkripsi"],
+      "answer": "Enkripsi mengubah data menjadi bentuk yang tidak mudah dibaca tanpa kunci yang sesuai. Enkripsi membantu menjaga kerahasiaan data saat disimpan atau dikirim."
+    },
+    {
+      "questions": ["apa itu cloud computing", "komputasi awan adalah", "cloud digunakan untuk apa"],
+      "answer": "Cloud computing menyediakan sumber daya komputasi seperti penyimpanan, server, dan layanan melalui jaringan. Data dan pemrosesan dapat berada di pusat data milik penyedia layanan."
+    },
+    {
+      "questions": ["apa itu database", "basis data adalah", "fungsi database"],
+      "answer": "Database adalah kumpulan data terstruktur yang disimpan agar dapat dicari, dikelola, dan diperbarui. Sistem manajemen basis data mengatur akses dan operasi terhadap data."
+    },
+    {
+      "questions": ["apa itu aplikasi web", "website adalah", "perbedaan website dan aplikasi web"],
+      "answer": "Website adalah kumpulan halaman yang dapat diakses melalui web. Aplikasi web biasanya menyediakan fungsi interaktif yang dijalankan melalui browser dan dapat berkomunikasi dengan server."
+    },
+    {
+      "questions": ["apa itu internet", "internet adalah", "cara kerja internet"],
+      "answer": "Internet adalah jaringan global yang menghubungkan banyak jaringan komputer menggunakan protokol bersama. Perangkat bertukar data melalui jalur yang dapat melewati berbagai router."
+    },
+    {
+      "questions": ["bagaimana memperbaiki internet lambat", "wifi lemot cara mengatasi", "cara mengatasi koneksi internet lambat"],
+      "answer": "Coba ukur kecepatan dekat router, mulai ulang router, kurangi gangguan dan beban perangkat, serta periksa kabel atau gangguan penyedia layanan. Kecepatan Wi-Fi dan internet dari penyedia adalah hal yang berbeda."
+    },
+    {
+      "questions": ["apa itu sistem operasi", "sistem operasi adalah", "contoh sistem operasi"],
+      "answer": "Sistem operasi mengelola perangkat keras dan menyediakan layanan bagi aplikasi. Contohnya Windows, Linux, macOS, Android, dan iOS."
+    },
+    {
+      "questions": ["apa itu linux", "linux digunakan untuk apa", "linux adalah"],
+      "answer": "Linux adalah keluarga sistem operasi berbasis kernel Linux. Berbagai distribusi Linux menggabungkan kernel dengan pustaka, alat sistem, dan aplikasi."
+    },
+    {
+      "questions": ["apa itu usb", "fungsi usb", "usb adalah"],
+      "answer": "USB adalah standar untuk menghubungkan perangkat dan mentransfer data atau daya. Bentuk konektor, kemampuan data, dan kemampuan pengisian bergantung pada versi serta perangkatnya."
+    },
+    {
+      "questions": ["kenapa esp32 tidak terdeteksi usb", "esp32 tidak muncul di com port", "cara mengatasi usb esp32 tidak terbaca"],
+      "answer": "Gunakan kabel USB yang mendukung data, coba port atau kabel lain, pasang driver USB-serial bila papan memerlukannya, dan periksa Device Manager. Beberapa ESP32-S3 menyediakan lebih dari satu konektor USB dengan fungsi berbeda."
+    },
+    {
+      "questions": ["apa itu baud rate", "baud rate serial adalah", "baud rate yang digunakan esp32"],
+      "answer": "Baud rate menunjukkan laju simbol komunikasi serial. Pengirim dan penerima harus memakai pengaturan yang sama, misalnya 115200 baud jika itulah konfigurasi program."
+    },
+    {
+      "questions": ["apa itu ota", "update firmware ota adalah", "ota esp32"],
+      "answer": "OTA adalah pembaruan perangkat lunak melalui jaringan tanpa menghubungkan kabel pemrograman. Dukungan OTA memerlukan bootloader, partisi, dan firmware yang dikonfigurasi untuk proses pembaruan."
+    },
+    {
+      "questions": ["terima kasih", "makasih", "thanks"],
+      "answer": "Sama-sama! Semoga membantu."
+    },
+    {
+      "questions": ["selamat tinggal", "dadah", "sampai jumpa"],
+      "answer": "Sampai jumpa! Silakan tanyakan hal lain kapan saja."
+    }
+  ]
+}

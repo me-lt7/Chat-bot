@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
   "language": "id",
-  "description": "Kamus jawaban ringkas ESP32 Chat-bot. Kontribusi pertanyaan dan koreksi typo diterima melalui pull request.",
+  "description": "Kamus jawaban ringkas ESP32 Chat-bot. Entri arti kata adalah ringkasan kosakata Indonesia dengan rujukan Wikikamus; entri pengetahuan lain merupakan jawaban ringkas. Kontribusi pertanyaan dan koreksi typo diterima melalui pull request.",
+  "lexicon_attribution": {
+    "source": "Wikikamus bahasa Indonesia",
+    "url": "https://id.wiktionary.org/",
+    "license": "CC BY-SA 4.0",
+    "note": "Arti kata dalam kamus ini diringkas dengan kata-kata sendiri; periksa sumber untuk definisi dan penggunaan lengkap."
+  },
   "entries": [
     {
       "questions": ["halo", "hai", "hallo", "hi", "selamat pagi", "selamat siang", "selamat malam"],
@@ -314,6 +320,354 @@
     {
       "questions": ["apa itu ota", "update firmware ota adalah", "ota esp32"],
       "answer": "OTA adalah pembaruan perangkat lunak melalui jaringan tanpa menghubungkan kabel pemrograman. Dukungan OTA memerlukan bootloader, partisi, dan firmware yang dikonfigurasi untuk proses pembaruan."
+    },
+    {
+      "questions": ["apa arti air", "arti air", "makna air", "definisi air"],
+      "answer": "Air adalah zat cair bening yang tersusun dari hidrogen dan oksigen, penting bagi kehidupan, dan terdapat antara lain di sungai, danau, serta laut."
+    },
+    {
+      "questions": ["apa arti api", "arti api", "makna api", "definisi api"],
+      "answer": "Api adalah panas dan cahaya yang muncul ketika sesuatu terbakar. Kata api juga dapat digunakan secara kiasan untuk menyebut semangat atau perasaan yang kuat."
+    },
+    {
+      "questions": ["apa arti angin", "arti angin", "makna angin", "definisi angin"],
+      "answer": "Angin adalah udara yang bergerak dari satu tempat ke tempat lain."
+    },
+    {
+      "questions": ["apa arti bumi", "arti bumi", "makna bumi", "definisi bumi"],
+      "answer": "Bumi adalah planet tempat manusia hidup. Kata bumi juga dapat berarti tanah atau permukaan daratan."
+    },
+    {
+      "questions": ["apa arti matahari", "arti matahari", "makna matahari", "definisi matahari"],
+      "answer": "Matahari adalah bintang yang menjadi pusat Tata Surya dan sumber cahaya serta panas utama bagi Bumi."
+    },
+    {
+      "questions": ["apa arti bulan", "arti bulan", "makna bulan", "definisi bulan"],
+      "answer": "Bulan adalah satelit alami Bumi. Kata bulan juga berarti satuan waktu yang kira-kira mencakup satu siklus fase Bulan."
+    },
+    {
+      "questions": ["apa arti bintang", "arti bintang", "makna bintang", "definisi bintang"],
+      "answer": "Bintang adalah benda langit yang menghasilkan cahaya sendiri, umumnya berupa bola gas panas. Dalam bahasa sehari-hari, bintang juga dapat berarti tokoh terkenal."
+    },
+    {
+      "questions": ["apa arti laut", "arti laut", "makna laut", "definisi laut"],
+      "answer": "Laut adalah kumpulan air asin yang luas dan berhubungan dengan samudra."
+    },
+    {
+      "questions": ["apa arti sungai", "arti sungai", "makna sungai", "definisi sungai"],
+      "answer": "Sungai adalah aliran air alami yang bergerak dari daerah lebih tinggi menuju tempat yang lebih rendah, dan biasanya bermuara ke danau atau laut."
+    },
+    {
+      "questions": ["apa arti gunung", "arti gunung", "makna gunung", "definisi gunung"],
+      "answer": "Gunung adalah bentuk permukaan bumi yang menjulang tinggi dibandingkan daerah di sekitarnya."
+    },
+    {
+      "questions": ["apa arti hutan", "arti hutan", "makna hutan", "definisi hutan"],
+      "answer": "Hutan adalah wilayah luas yang didominasi pepohonan dan menjadi habitat berbagai tumbuhan serta hewan."
+    },
+    {
+      "questions": ["apa arti pohon", "arti pohon", "makna pohon", "definisi pohon"],
+      "answer": "Pohon adalah tumbuhan berkayu yang umumnya memiliki batang utama, cabang, dan daun."
+    },
+    {
+      "questions": ["apa arti bunga", "arti bunga", "makna bunga", "definisi bunga"],
+      "answer": "Bunga adalah bagian tumbuhan yang berperan dalam perkembangbiakan. Bunga juga dapat berarti imbalan atau biaya tambahan, bergantung pada konteks."
+    },
+    {
+      "questions": ["apa arti daun", "arti daun", "makna daun", "definisi daun"],
+      "answer": "Daun adalah bagian tumbuhan yang biasanya tumbuh pada batang atau cabang dan berperan penting dalam fotosintesis."
+    },
+    {
+      "questions": ["apa arti akar", "arti akar", "makna akar", "definisi akar"],
+      "answer": "Akar adalah bagian tumbuhan yang umumnya berada di dalam tanah, menyerap air dan mineral, serta membantu menopang tumbuhan."
+    },
+    {
+      "questions": ["apa arti hewan", "arti hewan", "makna hewan", "definisi hewan"],
+      "answer": "Hewan adalah makhluk hidup yang memperoleh makanan dari sumber lain dan dapat bergerak pada tahap tertentu dalam hidupnya."
+    },
+    {
+      "questions": ["apa arti manusia", "arti manusia", "makna manusia", "definisi manusia"],
+      "answer": "Manusia adalah makhluk hidup dari spesies Homo sapiens yang memiliki kemampuan berpikir, berbahasa, dan hidup bermasyarakat."
+    },
+    {
+      "questions": ["apa arti keluarga", "arti keluarga", "makna keluarga", "definisi keluarga"],
+      "answer": "Keluarga adalah kelompok orang yang memiliki hubungan kekerabatan, perkawinan, atau ikatan pengasuhan."
+    },
+    {
+      "questions": ["apa arti teman", "arti teman", "makna teman", "definisi teman"],
+      "answer": "Teman adalah orang yang dikenal dan berhubungan baik dengan seseorang; dalam konteks tertentu berarti kawan atau sahabat."
+    },
+    {
+      "questions": ["apa arti rumah", "arti rumah", "makna rumah", "definisi rumah"],
+      "answer": "Rumah adalah bangunan atau tempat yang digunakan untuk tinggal dan berlindung."
+    },
+    {
+      "questions": ["apa arti sekolah", "arti sekolah", "makna sekolah", "definisi sekolah"],
+      "answer": "Sekolah adalah lembaga atau tempat berlangsungnya kegiatan belajar dan mengajar."
+    },
+    {
+      "questions": ["apa arti buku", "arti buku", "makna buku", "definisi buku"],
+      "answer": "Buku adalah kumpulan lembaran berisi tulisan, gambar, atau informasi yang disusun dan dijilid atau diterbitkan dalam bentuk digital."
+    },
+    {
+      "questions": ["apa arti bahasa", "arti bahasa", "makna bahasa", "definisi bahasa"],
+      "answer": "Bahasa adalah sistem lambang dan aturan yang digunakan manusia untuk berkomunikasi serta menyampaikan pikiran."
+    },
+    {
+      "questions": ["apa arti kata", "arti kata", "makna kata", "definisi kata"],
+      "answer": "Kata adalah satuan bahasa yang dapat berdiri sendiri dan memiliki makna atau fungsi tata bahasa."
+    },
+    {
+      "questions": ["apa arti kalimat", "arti kalimat", "makna kalimat", "definisi kalimat"],
+      "answer": "Kalimat adalah satuan bahasa yang menyampaikan pikiran atau maksud dan biasanya memiliki susunan gramatikal serta intonasi akhir."
+    },
+    {
+      "questions": ["apa arti ilmu", "arti ilmu", "makna ilmu", "definisi ilmu"],
+      "answer": "Ilmu adalah pengetahuan yang disusun secara teratur dan diperoleh melalui pembelajaran, pengamatan, atau penelitian."
+    },
+    {
+      "questions": ["apa arti belajar", "arti belajar", "makna belajar", "definisi belajar"],
+      "answer": "Belajar adalah usaha memperoleh pengetahuan, pemahaman, atau keterampilan melalui pengalaman, latihan, dan pendidikan."
+    },
+    {
+      "questions": ["apa arti kerja", "arti kerja", "makna kerja", "definisi kerja"],
+      "answer": "Kerja adalah kegiatan melakukan sesuatu untuk mencapai tujuan. Kata ini juga dapat berarti pekerjaan atau usaha."
+    },
+    {
+      "questions": ["apa arti waktu", "arti waktu", "makna waktu", "definisi waktu"],
+      "answer": "Waktu adalah rangkaian saat yang digunakan untuk mengukur berlangsungnya peristiwa, seperti detik, menit, dan jam."
+    },
+    {
+      "questions": ["apa arti hari", "arti hari", "makna hari", "definisi hari"],
+      "answer": "Hari adalah rentang waktu satu kali siang dan malam atau satuan kalender yang terdiri dari 24 jam."
+    },
+    {
+      "questions": ["apa arti malam", "arti malam", "makna malam", "definisi malam"],
+      "answer": "Malam adalah bagian hari ketika matahari berada di bawah cakrawala pada suatu tempat, biasanya antara petang dan pagi."
+    },
+    {
+      "questions": ["apa arti pagi", "arti pagi", "makna pagi", "definisi pagi"],
+      "answer": "Pagi adalah bagian awal hari, biasanya sejak matahari terbit hingga menjelang siang."
+    },
+    {
+      "questions": ["apa arti makan", "arti makan", "makna makan", "definisi makan"],
+      "answer": "Makan adalah kegiatan memasukkan makanan ke dalam mulut, mengunyahnya, dan menelannya untuk memperoleh energi serta zat gizi."
+    },
+    {
+      "questions": ["apa arti minum", "arti minum", "makna minum", "definisi minum"],
+      "answer": "Minum adalah kegiatan memasukkan cairan ke dalam tubuh melalui mulut."
+    },
+    {
+      "questions": ["apa arti sehat", "arti sehat", "makna sehat", "definisi sehat"],
+      "answer": "Sehat berarti berada dalam keadaan baik pada tubuh atau pikiran. Makna kesehatan mencakup lebih dari sekadar tidak adanya penyakit."
+    },
+    {
+      "questions": ["apa arti sakit", "arti sakit", "makna sakit", "definisi sakit"],
+      "answer": "Sakit berarti merasa tidak nyaman atau terganggu pada tubuh maupun pikiran, atau berada dalam keadaan terkena penyakit."
+    },
+    {
+      "questions": ["apa arti cinta", "arti cinta", "makna cinta", "definisi cinta"],
+      "answer": "Cinta adalah perasaan kasih sayang atau keterikatan yang mendalam terhadap seseorang, makhluk, atau sesuatu."
+    },
+    {
+      "questions": ["apa arti bahagia", "arti bahagia", "makna bahagia", "definisi bahagia"],
+      "answer": "Bahagia berarti merasa senang, tenteram, dan puas terhadap keadaan atau pengalaman tertentu."
+    },
+    {
+      "questions": ["apa arti baik", "arti baik", "makna baik", "definisi baik"],
+      "answer": "Baik dapat berarti tidak buruk, sesuai harapan, bermanfaat, atau memiliki sifat yang terpuji; artinya bergantung pada konteks."
+    },
+    {
+      "questions": ["apa arti indah", "arti indah", "makna indah", "definisi indah"],
+      "answer": "Indah berarti elok atau menyenangkan untuk dilihat, didengar, maupun dirasakan."
+    },
+    {
+      "questions": ["apa arti cepat", "arti cepat", "makna cepat", "definisi cepat"],
+      "answer": "Cepat berarti berlangsung atau bergerak dalam waktu singkat atau dengan kecepatan tinggi."
+    },
+    {
+      "questions": ["apa arti lambat", "arti lambat", "makna lambat", "definisi lambat"],
+      "answer": "Lambat berarti bergerak atau berlangsung dengan kecepatan rendah atau membutuhkan waktu lebih lama."
+    },
+    {
+      "questions": ["apa arti besar", "arti besar", "makna besar", "definisi besar"],
+      "answer": "Besar berarti memiliki ukuran, jumlah, atau tingkat yang lebih dari biasanya; makna tepatnya bergantung pada hal yang dibicarakan."
+    },
+    {
+      "questions": ["apa arti kecil", "arti kecil", "makna kecil", "definisi kecil"],
+      "answer": "Kecil berarti memiliki ukuran, jumlah, atau tingkat yang kurang dari biasanya."
+    },
+    {
+      "questions": ["apa arti panas", "arti panas", "makna panas", "definisi panas"],
+      "answer": "Panas adalah keadaan bersuhu tinggi atau energi yang berpindah karena perbedaan suhu."
+    },
+    {
+      "questions": ["apa arti dingin", "arti dingin", "makna dingin", "definisi dingin"],
+      "answer": "Dingin menggambarkan keadaan bersuhu rendah atau rasa ketika menerima sedikit panas."
+    },
+    {
+      "questions": ["apa arti kuat", "arti kuat", "makna kuat", "definisi kuat"],
+      "answer": "Kuat berarti memiliki tenaga atau daya tahan besar; kata ini juga dapat berarti kokoh atau berpengaruh."
+    },
+    {
+      "questions": ["apa arti pintar", "arti pintar", "makna pintar", "definisi pintar"],
+      "answer": "Pintar berarti memiliki kecakapan atau kemampuan memahami dan melakukan sesuatu dengan baik."
+    },
+    {
+      "questions": ["apa arti benar", "arti benar", "makna benar", "definisi benar"],
+      "answer": "Benar berarti sesuai dengan kenyataan, aturan, atau keadaan yang semestinya."
+    },
+    {
+      "questions": ["apa arti salah", "arti salah", "makna salah", "definisi salah"],
+      "answer": "Salah berarti tidak sesuai dengan kenyataan, aturan, atau jawaban yang tepat."
+    },
+    {
+      "questions": ["apa arti awan", "arti awan", "makna awan", "definisi awan"],
+      "answer": "Awan adalah kumpulan titik air atau kristal es kecil yang melayang di atmosfer."
+    },
+    {
+      "questions": ["apa arti hujan", "arti hujan", "makna hujan", "definisi hujan"],
+      "answer": "Hujan adalah air yang jatuh dari awan ke permukaan bumi setelah butir air atau kristal es di awan membesar."
+    },
+    {
+      "questions": ["apa arti cuaca", "arti cuaca", "makna cuaca", "definisi cuaca"],
+      "answer": "Cuaca adalah keadaan udara di suatu tempat pada waktu tertentu, termasuk suhu, angin, awan, dan hujan."
+    },
+    {
+      "questions": ["apa arti tanah", "arti tanah", "makna tanah", "definisi tanah"],
+      "answer": "Tanah adalah lapisan permukaan bumi yang menjadi tempat tumbuh tanaman dan tersusun dari mineral, bahan organik, air, serta udara."
+    },
+    {
+      "questions": ["apa arti teknologi", "arti teknologi", "makna teknologi", "definisi teknologi"],
+      "answer": "Teknologi adalah penerapan pengetahuan dan keterampilan untuk membuat alat, proses, atau sistem yang membantu memenuhi kebutuhan manusia."
+    },
+    {
+      "questions": ["apa arti komputer", "arti komputer", "makna komputer", "definisi komputer"],
+      "answer": "Komputer adalah perangkat elektronik yang menerima data, memprosesnya menurut instruksi, menyimpan data, dan menghasilkan keluaran."
+    },
+    {
+      "questions": ["apa arti program", "arti program", "makna program", "definisi program"],
+      "answer": "Program adalah kumpulan instruksi yang disusun agar komputer atau perangkat melakukan tugas tertentu."
+    },
+    {
+      "questions": ["apa arti data", "arti data", "makna data", "definisi data"],
+      "answer": "Data adalah fakta atau keterangan yang dapat dicatat, disimpan, dan diolah menjadi informasi."
+    },
+    {
+      "questions": ["apa arti internet", "arti internet", "makna internet", "definisi internet"],
+      "answer": "Internet adalah jaringan global yang menghubungkan jaringan-jaringan komputer untuk bertukar data dan menyediakan berbagai layanan."
+    },
+    {
+      "questions": ["apa arti jaringan", "arti jaringan", "makna jaringan", "definisi jaringan"],
+      "answer": "Jaringan adalah kumpulan unsur yang saling terhubung. Dalam komputer, jaringan menghubungkan perangkat agar dapat bertukar data."
+    },
+    {
+      "questions": ["apa arti listrik", "arti listrik", "makna listrik", "definisi listrik"],
+      "answer": "Listrik berkaitan dengan muatan listrik dan gejala yang ditimbulkannya, termasuk aliran arus yang dapat digunakan untuk menjalankan perangkat."
+    },
+    {
+      "questions": ["apa arti energi", "arti energi", "makna energi", "definisi energi"],
+      "answer": "Energi adalah kemampuan untuk melakukan kerja atau menyebabkan perubahan. Energi dapat hadir dalam bentuk panas, cahaya, gerak, kimia, dan listrik."
+    },
+    {
+      "questions": ["apa arti sejarah", "arti sejarah", "makna sejarah", "definisi sejarah"],
+      "answer": "Sejarah adalah pengetahuan tentang peristiwa masa lalu dan perubahan kehidupan manusia berdasarkan sumber serta bukti."
+    },
+    {
+      "questions": ["apa arti negara", "arti negara", "makna negara", "definisi negara"],
+      "answer": "Negara adalah organisasi yang memiliki wilayah, penduduk, pemerintahan, dan kedaulatan yang diakui menurut aturan yang berlaku."
+    },
+    {
+      "questions": ["apa arti masyarakat", "arti masyarakat", "makna masyarakat", "definisi masyarakat"],
+      "answer": "Masyarakat adalah sekelompok orang yang hidup bersama dan berinteraksi dalam suatu lingkungan serta memiliki aturan atau kebiasaan bersama."
+    },
+    {
+      "questions": ["apa arti ekonomi", "arti ekonomi", "makna ekonomi", "definisi ekonomi"],
+      "answer": "Ekonomi adalah kegiatan dan ilmu yang mempelajari produksi, distribusi, serta penggunaan barang dan jasa ketika sumber daya terbatas."
+    },
+    {
+      "questions": ["apa arti seni", "arti seni", "makna seni", "definisi seni"],
+      "answer": "Seni adalah karya atau kegiatan kreatif yang dapat mengungkapkan gagasan dan perasaan melalui bentuk seperti gambar, musik, gerak, atau tulisan."
+    },
+    {
+      "questions": ["apa arti musik", "arti musik", "makna musik", "definisi musik"],
+      "answer": "Musik adalah susunan bunyi yang diatur dalam irama, melodi, atau harmoni untuk didengar dan dapat mengungkapkan suasana atau gagasan."
+    },
+    {
+      "questions": ["apa arti warna", "arti warna", "makna warna", "definisi warna"],
+      "answer": "Warna adalah kesan yang diterima mata dari cahaya dengan panjang gelombang berbeda. Nama dan makna warna juga dapat bervariasi menurut konteks budaya."
+    },
+    {
+      "questions": ["apa arti merah", "arti merah", "makna merah", "definisi merah"],
+      "answer": "Merah adalah nama warna yang berada pada bagian panjang gelombang cahaya tampak. Dalam budaya tertentu, warna merah dapat memiliki berbagai makna simbolis."
+    },
+    {
+      "questions": ["apa arti biru", "arti biru", "makna biru", "definisi biru"],
+      "answer": "Biru adalah nama warna pada bagian spektrum cahaya tampak yang panjang gelombangnya lebih pendek daripada hijau."
+    },
+    {
+      "questions": ["apa arti hijau", "arti hijau", "makna hijau", "definisi hijau"],
+      "answer": "Hijau adalah warna yang umum terlihat pada banyak daun karena pigmen klorofil. Warna hijau juga dapat muncul pada benda lain."
+    },
+    {
+      "questions": ["apa arti angka", "arti angka", "makna angka", "definisi angka"],
+      "answer": "Angka adalah lambang yang digunakan untuk menyatakan bilangan, misalnya 0, 1, 2, dan seterusnya."
+    },
+    {
+      "questions": ["apa arti bilangan", "arti bilangan", "makna bilangan", "definisi bilangan"],
+      "answer": "Bilangan adalah konsep matematika untuk menyatakan jumlah, urutan, ukuran, atau nilai."
+    },
+    {
+      "questions": ["apa arti ukuran", "arti ukuran", "makna ukuran", "definisi ukuran"],
+      "answer": "Ukuran adalah hasil atau cara menyatakan besar, panjang, berat, jumlah, atau besaran lain, biasanya memakai satuan."
+    },
+    {
+      "questions": ["apa arti jarak", "arti jarak", "makna jarak", "definisi jarak"],
+      "answer": "Jarak adalah panjang ruang antara dua titik atau tempat dan dapat dinyatakan dengan satuan seperti meter atau kilometer."
+    },
+    {
+      "questions": ["apa arti berat", "arti berat", "makna berat", "definisi berat"],
+      "answer": "Berat dalam penggunaan sehari-hari menyatakan seberapa berat suatu benda. Dalam fisika, berat adalah gaya gravitasi yang bekerja pada benda."
+    },
+    {
+      "questions": ["apa arti suhu", "arti suhu", "makna suhu", "definisi suhu"],
+      "answer": "Suhu adalah besaran yang menunjukkan tingkat panas atau dingin suatu benda dan dapat diukur, misalnya dalam derajat Celsius."
+    },
+    {
+      "questions": ["apa arti sebab", "arti sebab", "makna sebab", "definisi sebab"],
+      "answer": "Sebab adalah hal atau keadaan yang menimbulkan suatu peristiwa atau akibat."
+    },
+    {
+      "questions": ["apa arti akibat", "arti akibat", "makna akibat", "definisi akibat"],
+      "answer": "Akibat adalah hasil atau dampak yang timbul dari suatu sebab atau tindakan."
+    },
+    {
+      "questions": ["apa arti masalah", "arti masalah", "makna masalah", "definisi masalah"],
+      "answer": "Masalah adalah keadaan atau persoalan yang membutuhkan perhatian, penjelasan, atau penyelesaian."
+    },
+    {
+      "questions": ["apa arti jawaban", "arti jawaban", "makna jawaban", "definisi jawaban"],
+      "answer": "Jawaban adalah tanggapan atau keterangan yang diberikan untuk menanggapi pertanyaan atau persoalan."
+    },
+    {
+      "questions": ["apa arti pertanyaan", "arti pertanyaan", "makna pertanyaan", "definisi pertanyaan"],
+      "answer": "Pertanyaan adalah kalimat atau ungkapan yang digunakan untuk meminta informasi, penjelasan, atau tanggapan."
+    },
+    {
+      "questions": ["apa arti pengetahuan", "arti pengetahuan", "makna pengetahuan", "definisi pengetahuan"],
+      "answer": "Pengetahuan adalah informasi atau pemahaman yang diperoleh melalui pengalaman, pembelajaran, pengamatan, atau sumber lain."
+    },
+    {
+      "questions": ["apa arti keamanan", "arti keamanan", "makna keamanan", "definisi keamanan"],
+      "answer": "Keamanan adalah keadaan terlindung dari bahaya, gangguan, atau akses yang tidak diinginkan."
+    },
+    {
+      "questions": ["apa arti perubahan", "arti perubahan", "makna perubahan", "definisi perubahan"],
+      "answer": "Perubahan adalah keadaan ketika sesuatu menjadi berbeda dari keadaan sebelumnya."
+    },
+    {
+      "questions": ["apa arti lingkungan", "arti lingkungan", "makna lingkungan", "definisi lingkungan"],
+      "answer": "Lingkungan adalah segala hal di sekitar makhluk hidup yang dapat memengaruhi kehidupannya, termasuk unsur alam dan sosial."
     },
     {
       "questions": ["terima kasih", "makasih", "thanks"],

@@ -1,6 +1,0 @@
-node_modules/
-dist/
-.pio/
-__pycache__/
-firmware-esp32s3.bin
-*.tmp
